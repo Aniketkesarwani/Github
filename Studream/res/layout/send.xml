@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:padding="25px">
+
+    <TextView
+        android:id="@+id/ques"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="My GrandMom is..." />
+
+    <RadioGroup
+        android:id="@+id/rg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <RadioButton
+            android:id="@+id/rCrazy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Crazy" />
+
+        <RadioButton
+            android:id="@+id/rSexy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Super Sexy" />
+
+        <RadioButton
+            android:id="@+id/rBoth"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Both" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/ret"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Return" />
+
+    <TextView
+        android:id="@+id/answer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Your Answer is..." />
+
+</LinearLayout>

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" android:weightSum="100">
+   
+    <ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"  android:layout_weight="30">
+    
+<LinearLayout  android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email Address(es):" />
+
+    <EditText
+        android:id="@+id/ed1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10" />
+
+
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Your Name" />
+
+    <EditText
+        android:id="@+id/ed2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10" />
+
+    <TextView
+        android:id="@+id/tv3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tell something about YourSelf" />
+
+    <EditText
+        android:id="@+id/ed3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10" />
+
+    <TextView
+        android:id="@+id/tv4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mobile No:" />
+
+    <EditText
+        android:id="@+id/ed4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10" />
+
+    <TextView
+        android:id="@+id/tv5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Address" />
+
+    <EditText
+        android:id="@+id/ed5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10" />
+
+    <TextView
+        android:id="@+id/tv6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="What's your Wish??" />
+
+    <EditText
+        android:id="@+id/ed6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10" />
+</LinearLayout>
+</ScrollView>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" android:layout_weight="40">
+
+    <Button
+        android:id="@+id/b"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Send Email" />
+</LinearLayout>
+
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+ android:layout_weight="30">
+    <AnalogClock
+        android:id="@+id/ac"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent" />
+</LinearLayout>
+
+</LinearLayout>
+    
+

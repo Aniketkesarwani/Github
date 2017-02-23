@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/tvName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name" />
+
+    <EditText
+        android:id="@+id/etName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </EditText>
+
+    <TextView
+        android:id="@+id/tvHotness"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hotness Scale From 1 to 10" />
+
+    <EditText
+        android:id="@+id/etHotness"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/bSqlUpdate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Update" />
+
+    <Button
+        android:id="@+id/bSqlView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="View" />
+
+    <TextView
+        android:id="@+id/row"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter RowId" />
+
+    <EditText
+        android:id="@+id/sqlrow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </EditText>
+
+    <Button
+        android:id="@+id/getinfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Get Info" />
+
+    <Button
+        android:id="@+id/edit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Edit" />
+
+    <Button
+        android:id="@+id/delete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Delete" />
+
+</LinearLayout>
